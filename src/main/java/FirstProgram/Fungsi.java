@@ -15,10 +15,20 @@ public class Fungsi {
         tambah(y,z);
         tambah(x,z);
         tambah(z,v);
+
+        kuadrat(x);
+        kuadrat(y);
+        kuadrat(z);
+        kuadrat(v);
     }
     public static int tambah(int a, int b){
         int hasilTambah = a+b;
         System.out.println("Hasil tambah "+a+" dan "+b+" adalah : "+hasilTambah);
         return hasilTambah;
+    }
+    public static int kuadrat(int a){
+        int hasilKuadrat = a*a;
+        System.out.println("Hasil kuadrat "+a+" adalah : "+hasilKuadrat);
+        return hasilKuadrat;
     }
 }
